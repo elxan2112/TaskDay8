@@ -19,6 +19,8 @@ namespace Zadanie1
             num1.GetPoint();
             num1.GetDistance();
             num1.GetQuarter();
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
 
         }
 
