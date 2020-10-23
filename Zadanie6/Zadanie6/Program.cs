@@ -32,6 +32,8 @@ namespace Zadanie6
             num.GetData();
             Console.WriteLine("Элементы массива после сортировки");
             Console.WriteLine(num.Quantity);
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
 
         }
         static int NumsInput(string report)
