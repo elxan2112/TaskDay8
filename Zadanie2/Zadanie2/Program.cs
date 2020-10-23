@@ -23,6 +23,8 @@ namespace Zadanie2
             num.GetPerimeter();
             num.GetArea();
             Console.WriteLine(num.Side);
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
 
         }
         static int SideInput(string report)
