@@ -27,6 +27,8 @@ namespace Zadanie5
             num.GetData();
             Console.WriteLine("Элементы массива после сортировки");
             num.GetSort();
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
         }
         static int NumsInput(string report)
         {
