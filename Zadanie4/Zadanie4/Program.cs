@@ -23,6 +23,8 @@ namespace Zadanie4
             Console.WriteLine($"Цена товара равна: {num.N} azn");
             num.GetCompare();
             num.GetQuantity();
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
         }
         static int NumsInput(string report)
         {
